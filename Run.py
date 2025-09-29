@@ -96,7 +96,7 @@ class Setup:
         except Exception as samay:
             designprint(f'{r}Password Incorrect !')
             print(f"{gr}[{r}!{gr}]{r}Contact Admin For Password!")
-            os.system("xdg-open https://buymeacoffee.com/mrstarkin/e/347558")
+            os.system("xdg-open mailto:gamerunknown509@gmail.com")
             os.system('python Run.py' if os.name=='nt' else 'python3 Run.py')
 
 
