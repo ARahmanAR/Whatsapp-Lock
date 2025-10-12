@@ -96,7 +96,7 @@ class Setup:
         except Exception as samay:
             designprint(f'{r}Password Incorrect !')
             print(f"{gr}[{r}!{gr}]{r} If you want to use whatsapp Lock you need to buy the password from the payment page \n press enter to redirect to payment page \n any other queries contact @gamerunknown509@gmail.com")
-            prod = input()
+            
             os.system("xdg-open https://buymeacoffee.com/unknownshou/e/466496")
             os.system('python Run.py' if os.name=='nt' else 'python3 Run.py')
 
